@@ -187,7 +187,7 @@ INSERT INTO
 VALUES
     ('Digimon');
 
--- All other animals are Pokemon 
+-- All other animals are Pokemon -
 UPDATE
     animals
 SET
