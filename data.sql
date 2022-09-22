@@ -209,7 +209,7 @@ SET
 WHERE
     name LIKE 'Agumon';
 
--- Jennifer Orwell owns Gabumon and Pikachu.
+-- Jennifer Orwell owns Gabumon and Pikachu.--
 UPDATE
     animals
 SET
