@@ -145,7 +145,7 @@ INSERT INTO
 VALUES
     ('Ditto', '2022-05-14', 4, 'true', 22);
 
--- insert data into owners table
+-- insert data into owners table -- 
 INSERT INTO
     owners (full_name, age)
 VALUES
