@@ -1,3 +1,4 @@
+/* Database schema to keep the structure of entire database. */
 CREATE TABLE animals (
     id INT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR(250),
@@ -8,7 +9,7 @@ CREATE TABLE animals (
     PRIMARY KEY(id)
 );
 
--- add species to animals table --
+-- add species to animals table
 ALTER TABLE
     animals
 ADD
@@ -46,11 +47,30 @@ ADD
     COLUMN owner_id INT,
 ADD
     CONSTRAINT owner_key FOREIGN KEY (owner_id) REFERENCES owners(id);
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
+
+-- add vets table 
+CREATE TABLE vets (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    name VARCHAR(250),
+    age INT,
+    date_of_graduation DATE,
+    PRIMARY KEY(id)
+);
+
+-- add specializations table
+CREATE TABLE specializations (
+    vet_id INT,
+    species_id INT,
+    FOREIGN KEY (vet_id) REFERENCES vets(id),
+    FOREIGN KEY (species_id) REFERENCES species (id),
+    PRIMARY KEY (vet_id, species_id)
+);
+
+-- add visits table
+CREATE TABLE visits (
+    animal_id INT,
+    vet_id INT,
+    visit_date DATE,
+    FOREIGN KEY (animal_id) REFERENCES animals (id),
+    FOREIGN KEY (vet_id) REFERENCES vets (id)
+);
