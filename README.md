@@ -8,9 +8,9 @@ https://github.com/chimwemwe007/Vet_Clinic.git
 
 👤 **Chimwemwe007**
 
-- chimwemwe007: [@chimwemwe007](https://github.com/chimwemwe007)
-- chxmz: [@chxmz](https://twitter.com/chxmz)
-- chimwemwe-mkandawire: [LinkedIn](https://linkedin.com/in/chimwemwe-mkandawire)
+- @chimwemwe007: [GitHub](https://github.com/chimwemwe007)
+- @chxmz: [twitter](https://twitter.com/chxmz)
+- @chimwemwe-mkandawrie: [LinkedIn](https://linkedin.com/in/chimwemwe-mkandawire)
 
 
 ## 🤝 Contributing
