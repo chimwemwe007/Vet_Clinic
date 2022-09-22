@@ -8,7 +8,7 @@ CREATE TABLE animals (
     PRIMARY KEY(id)
 );
 
--- add species to animals table
+-- add species to animals table --
 ALTER TABLE
     animals
 ADD
