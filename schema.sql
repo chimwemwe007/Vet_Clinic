@@ -46,11 +46,3 @@ ADD
     COLUMN owner_id INT,
 ADD
     CONSTRAINT owner_key FOREIGN KEY (owner_id) REFERENCES owners(id);
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
