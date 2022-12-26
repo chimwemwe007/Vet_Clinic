@@ -1,5 +1,5 @@
 > # Vet_Clinic Database
-This is a relational database that creates the data structure for a vet clinic. It is comprised of data about animals.
+This is a relational database that creates the data structure for a vet clinic. It is comprised of data about animals. In this project i have also added a joint table to help with many tog many relationships.
 
 >   ## Clone this Repository
 https://github.com/chimwemwe007/Vet_Clinic.git
